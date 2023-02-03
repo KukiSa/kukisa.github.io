@@ -14,4 +14,8 @@
 
 /.well-known/openpgpkey/*
   Content-Type: application/octet-stream
+  Access-Control-Allow-Origin: *
+
+/.well-known/openpgpkey/fpr/*
+  Content-Type: application/pgp-keys
   Access-Control-Allow-Origin: * 
