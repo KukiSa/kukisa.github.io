@@ -7,9 +7,11 @@
   NEL: {"report_to":"default","max_age":31536000,"include_subdomains":true}
 
 /404.html
-  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   cache-control: max-age=0
   cache-control: no-cache
   cache-control: no-store
   cache-control: must-revalidate
-  
+
+/.well-known/openpgpkey/*
+  Content-Type: application/octet-stream
+  Access-Control-Allow-Origin: * 
