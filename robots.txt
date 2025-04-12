@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow: /.well-known/openpgpkey/
+Disallow: /?ref
+Allow: /
